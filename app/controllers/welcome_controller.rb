@@ -1,4 +1,9 @@
 class WelcomeController < ApplicationController
-  def index
-  end
+    layout "demiurge"
+    
+    def index
+    end
+
+    def about
+    end
 end
